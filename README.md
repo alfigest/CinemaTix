@@ -9,4 +9,4 @@ Features:
 
 Created by : Alfi Naufal
 
-![CinemaTix](https://user-images.githubusercontent.com/50512682/97705774-32624280-1ae7-11eb-82ec-27b621b55187.gif)
+![Cinematix App](https://user-images.githubusercontent.com/50512682/97708965-2c229500-1aec-11eb-808d-3efbd6b74f21.gif)
