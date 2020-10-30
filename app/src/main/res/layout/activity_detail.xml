@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSplash"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poster" />
+
+    <TextView
+        android:id="@+id/tv_kursi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Avengers: Infinity War"
+        android:fontFamily="@font/montserratregular"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_poster" />
+
+    <TextView
+        android:id="@+id/tv_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/montserratlight"
+        android:text="Action, Sci-fi, Kids"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kursi" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Storyboard"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserratregular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_genre" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/montserratlight"
+        android:text="The Avengers must stop Thanos, a mad Titan, and his  army from getting their hands on all the infinity stones.  However, the mad Titan is prepared to go to any lengths  to carry out his insane plan."
+        android:textColor="@android:color/white"
+        android:lineSpacingExtra="5sp"
+        android:textSize="12sp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Who’s Played"
+        android:fontFamily="@font/montserratregular"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_who_play"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:overScrollMode="never"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <Button
+        android:id="@+id/btn_pilih_bangku"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/shape_rectangle_jingga"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Pilih Bangku"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_poster"
+        app:srcCompat="@drawable/ic_arrow_back_white_24dp" />
+
+    <TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:drawableLeft="@drawable/ic_star_yellow_24dp"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:fontFamily="@font/montserratlight"
+        android:text="7"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_kursi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

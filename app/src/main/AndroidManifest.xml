@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cinematixapps">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gambar"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_back"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.noActionBar">
+
+
+        <activity android:name=".wallet.TopUp"/>
+        <activity android:name=".wallet.TopUpSuccessActivity" />
+        <activity android:name=".wallet.MyWallet" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".home.TiketActivity" />
+        <activity android:name=".home.HomeActivity" />
+        <activity android:name=".useracc.EditProfile" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".checkout.PilihBangkuActivity" />
+        <activity android:name=".checkout.CheckoutSuccessActivity" />
+        <activity android:name=".checkout.CheckoutActivity" />
+        <activity android:name=".onboarding.PageOneActivity" />
+        <activity android:name=".onboarding.PageTwoActivity" />
+        <activity android:name=".onboarding.PageThreeActivity" />
+        <activity android:name=".useracc.login.LoginActivity" />
+        <activity android:name=".useracc.register.RegisterPhotoActivity" />
+        <activity android:name=".useracc.register.RegisterActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
