@@ -9,7 +9,7 @@ Features:
 
 Created by : Alfi Naufal
 
-![app1](https://user-images.githubusercontent.com/50512682/97701118-7d785780-1adf-11eb-8dfb-35245c5002fd.JPG)
+![App1](https://user-images.githubusercontent.com/50512682/97701322-cfb97880-1adf-11eb-9f7d-435fd486c83c.PNG)
 ![App2](https://user-images.githubusercontent.com/50512682/97700635-c11e9180-1ade-11eb-841e-06f579109dd0.PNG)
 ![App3](https://user-images.githubusercontent.com/50512682/97700645-c54aaf00-1ade-11eb-9ac6-8ea25476498c.PNG)
 ![App4](https://user-images.githubusercontent.com/50512682/97700659-cbd92680-1ade-11eb-8bac-7cf7794f1d0e.PNG)
